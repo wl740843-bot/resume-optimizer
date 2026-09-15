@@ -21,3 +21,6 @@
 
 ```bash
 pip install requests python-docx
+## 🔒 安全说明
+API密钥使用环境变量`.env`读取，**不硬编码写在代码内**，避免密钥泄露。
+`.env`文件已配置在.gitignore，不会提交到代码仓库。
